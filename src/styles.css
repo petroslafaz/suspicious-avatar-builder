@@ -1,0 +1,32 @@
+.avatar-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f2fbfe;
+  border-radius: 10px;
+}
+
+.tabs-palette-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+}
+
+.Palette {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px; /* Gap between grid items */
+  padding: 10px; /* Padding around the grid */
+  border-radius: 10px;
+  border: 1px solid black; /* Shorthand property for border */
+  background-color: #bde5ef;
+  margin-top: 10px;
+}
+
+.Palette button {
+  /* Style for individual color buttons within the Palette component */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
